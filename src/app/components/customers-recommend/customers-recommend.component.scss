@@ -1,0 +1,65 @@
+.quotation {
+  width: 80px;
+  height: 80px;
+  background-image: url('../../../assets/img/landing/qutation.svg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: -50px;
+  left: -10px;
+  opacity: 0.4;
+
+}
+
+.btn-arrow {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 250px;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+      opacity: 0.6;
+  }
+}
+
+.arrow-left {
+  left: 0;
+}
+
+.arrow-right {
+    right: 0;
+  }
+
+
+  .customer-recommend-profile {
+      display: flex;
+      flex-direction: row;
+      padding: 40px;
+      padding-bottom: 200px;
+
+      .customer-avatar {
+          width: 70px;
+          height: 70px;
+          background-color: #dddddd;
+          border-radius: 200px;
+          background-image: url('../../../assets/img/landing/avatar/03.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+      }
+      .customer-info {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        padding-left: 15px;
+
+        p {
+            color: #333333;
+            margin: 0;
+        }
+      }
+  }

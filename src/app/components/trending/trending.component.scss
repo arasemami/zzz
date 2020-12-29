@@ -1,0 +1,57 @@
+
+.title-bar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+
+    h3 {
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+        color: #333333;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+        color: #333333;
+    }
+}
+
+.trending-category {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding: 20px 0;
+    cursor: pointer;
+    overflow-x: scroll;
+
+    .trending-category-item {
+        margin: 10px;
+        padding: 10px;
+        transition: all 300ms ease-in-out;
+
+        &:hover {
+            background-color: #F5F5F5;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 3px;
+        }
+        p {
+            font-weight: 300;
+            color: #333333;
+            padding-top: 10px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+ 

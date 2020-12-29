@@ -1,0 +1,26 @@
+
+ul{
+    li {
+        list-style: none;
+        color: #FFFFFF;
+        line-height: 30px;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: all 300ms ease-in-out;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+.footer-title {
+    color: #7F7F7F;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.footer-menu-container {
+    display: flex;
+    flex-direction: row;
+}

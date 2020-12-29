@@ -1,0 +1,74 @@
+
+.head-how-is-working {
+    padding-top: 100px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+
+    h2 {
+        font-weight: bolder;
+        color: #303030;
+    }
+    p {
+        width: 600px;
+        color: #B9B9B9;
+    }
+
+}
+
+.horizontal-line {
+    width: 1px;
+    height: 100%;
+    background-color: #E6E6E6;
+}
+
+.how-working-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .how-working-item-image {
+        width: 100%;
+        height: 350px; 
+    }
+
+    h3 {
+        font-weight: 700;
+        color: #303030;
+    }
+    p {
+        font-weight: 300;
+        color: #333333;
+        text-align: justify;
+    } 
+}
+
+.work-directly-img {
+    background-image: url('../../../assets/img/landing/work-directly.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    filter: grayscale(100%);
+    opacity: 0.3;
+    transition: all 300ms ease-in-out;
+    &:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+}
+
+.work-contest-img {
+    background-image: url('../../../assets/img/landing/work-contest.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    filter: grayscale(100%);
+    opacity: 0.3;
+    transition: all 300ms ease-in-out;
+    &:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+}
