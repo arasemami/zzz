@@ -17,6 +17,7 @@ import { CustomersRecommendComponent } from './components/customers-recommend/cu
 import { FooterComponent } from './components/footer/footer.component';
 import { TrustedByComponent } from './components/trusted-by/trusted-by.component';
 import { FreelanceTalentComponent } from './components/freelance-talent/freelance-talent.component';
+import { VideoPlayerComponent } from './components/freelance-talent/video-player/video-player.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FreelanceTalentComponent } from './components/freelance-talent/freelanc
     CustomersRecommendComponent,
     FooterComponent,
     TrustedByComponent,
-    FreelanceTalentComponent
+    FreelanceTalentComponent,
+    VideoPlayerComponent
   ],
   imports: [
     BrowserModule,
