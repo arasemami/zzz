@@ -15,6 +15,8 @@ import { WorkFlowComponent } from './components/work-flow/work-flow.component';
 import { WhatYouNeedComponent } from './components/what-you-need/what-you-need.component';
 import { CustomersRecommendComponent } from './components/customers-recommend/customers-recommend.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TrustedByComponent } from './components/trusted-by/trusted-by.component';
+import { FreelanceTalentComponent } from './components/freelance-talent/freelance-talent.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { FooterComponent } from './components/footer/footer.component';
     WorkFlowComponent,
     WhatYouNeedComponent,
     CustomersRecommendComponent,
-    FooterComponent
+    FooterComponent,
+    TrustedByComponent,
+    FreelanceTalentComponent
   ],
   imports: [
     BrowserModule,

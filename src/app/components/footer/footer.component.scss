@@ -1,26 +1,114 @@
+ul {
+  li {
+    list-style: none;
+    color: #FFFFFF;
+    line-height: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 300ms ease-in-out;
 
-ul{
-    li {
-        list-style: none;
-        color: #FFFFFF;
-        line-height: 30px;
-        cursor: pointer;
-        opacity: 0.5;
-        transition: all 300ms ease-in-out;
-
-        &:hover {
-            opacity: 1;
-        }
+    &:hover {
+      opacity: 1;
     }
+  }
 }
+
 .footer-title {
-    color: #7F7F7F;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 15px;
+  color: #404145;
+  font-weight: 700;
+  padding-bottom: 5px;
+  font-size: 16px;
 }
 
 .footer-menu-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-menu-items {
+  padding: 0;
+
+  li {
+    color: #62646a;
+    font-size: 16px;
+    font-weight: 300;
+
+  }
+}
+
+.footer-line {
+  user-select: none;
+  padding-left: 20px;
+  padding-bottom: 15px;
+
+  a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #62646a;
+    opacity: 0.8;
+    transition: all 300ms ease-in-out;
+
+
+    &:hover {
+      opacity: 1;
+      color: #333333;
+    }
+  }
+
+  P {
+    color: #62646a;
+    opacity: 0.8;
+    transition: all 300ms ease-in-out;
+
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  .social-item {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 300ms ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;  
+    filter: grayscale(100%);
+
+    &:hover {
+      opacity: 1;
+      filter: grayscale(0);
+    }
+  }
+}
+
+.fb {
+  background-image: url('../../../assets/img/landing/social/01.svg');
+}
+
+.tw {
+  background-image: url('../../../assets/img/landing/social/02.svg');
+}
+
+.ln {
+  background-image: url('../../../assets/img/landing/social/03.svg');
+}
+
+.pi {
+  background-image: url('../../../assets/img/landing/social/04.svg');
+}
+
+.in {
+  background-image: url('../../../assets/img/landing/social/05.svg');
 }

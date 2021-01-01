@@ -13,8 +13,9 @@
         color: #303030;
     }
     p {
-        width: 600px;
+        // width: 600px;
         color: #B9B9B9;
+      
     }
 
 }
@@ -50,12 +51,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
-    filter: grayscale(100%);
-    opacity: 0.3;
+    // filter: grayscale(100%);
+    opacity: 1;
     transition: all 300ms ease-in-out;
     &:hover {
         filter: grayscale(0%);
-        opacity: 1;
+        opacity: 0.8;
     }
 }
 
@@ -64,11 +65,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; 
-    filter: grayscale(100%);
-    opacity: 0.3;
+    // filter: grayscale(100%);
+    opacity: 1;
     transition: all 300ms ease-in-out;
     &:hover {
         filter: grayscale(0%);
-        opacity: 1;
+        opacity: 0.8;
     }
 }
